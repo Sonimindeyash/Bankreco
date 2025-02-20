@@ -36,7 +36,7 @@ Usage
 3. Review the `ai_results.json` file for the output.
 
  Matching Criteria
-- **Date Matching**: Allows up to a 5-day difference.
+- **Date Matching**: Allows up to a 2-day difference.
 - **Amount Matching**: Accepts minor rounding errors (±0.05%).
 - **Narration Similarity**: Requires at least 70% similarity for a match.
 - **Reference Numbers**: Ignored during matching.
