@@ -1,0 +1,37 @@
+{
+    "green": [
+        {
+            "bank_transaction": {
+                "Date": "02/01/25",
+                "Narration": "NEFT CR-ICIC0099999-WSIEGUY RESEARCH CONSULTANTS PVT LTD-IBN TECHNOLOGIES LIMITED-ICIN200205275035",
+                "Chq./Ref.No.": "ICIN200205275035",
+                "Value Dt": "02/01/25",
+                "Withdrawal Amt.": null,
+                "Deposit Amt.": 13122,
+                "Closing Balance": 1591273.46
+            },
+            "book_transaction": {
+                "date": "2025-01-02",
+                "account_name": "Current Account-BIBVEWADI 2230",
+                "transaction_details": "WISEGUY RESEARCH CONSULTANTS PRIVATE LIMITED",
+                "transaction_id": 3155644000009459525,
+                "reference_transaction_id": null,
+                "offset_account_id": null,
+                "offset_account_type": null,
+                "transaction_type": "customer_payment",
+                "reference_number": "ICIN200205275035",
+                "entity_number": "IBN/24-25/1051",
+                "debit": 13122,
+                "credit": null,
+                "cl_amount": 13122,
+                "contact_id": 3155644000000646115,
+                "account_id": 3155644000000334019,
+                "currency_code": "INR",
+                "account_group": "asset",
+                "account_type": "bank"
+            }
+        }
+    ],
+    "yellow": [],
+    "red": []
+}

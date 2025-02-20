@@ -1,0 +1,1371 @@
+Error processing transactions: Request too large for gpt-4o in organization org-NmhXiuCqtbawtpT17cCzphOJ on tokens per min (TPM): Limit 30000, Requested 133829. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.
+Error processing transactions: This model's maximum context length is 128000 tokens. However, your messages resulted in 185379 tokens. Please reduce the length of the messages.
+Error processing transactions: This model's maximum context length is 128000 tokens. However, your messages resulted in 138589 tokens. Please reduce the length of the messages.
+Error processing transactions: Request too large for gpt-4o in organization org-NmhXiuCqtbawtpT17cCzphOJ on tokens per min (TPM): Limit 30000, Requested 100159. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.
+Error processing transactions: Request too large for gpt-4o in organization org-NmhXiuCqtbawtpT17cCzphOJ on tokens per min (TPM): Limit 30000, Requested 82772. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.
+Error processing transactions: Request too large for gpt-4o in organization org-NmhXiuCqtbawtpT17cCzphOJ on tokens per min (TPM): Limit 30000, Requested 60062. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.
+Error processing transactions: Request too large for gpt-4o in organization org-NmhXiuCqtbawtpT17cCzphOJ on tokens per min (TPM): Limit 30000, Requested 37426. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.
+JSON decoding error: Unterminated string starting at: line 460 column 9 (char 13108)
+Raw response content: {
+  "green": [
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "RTGS CR-DBSS0IN0811-IBN TECHNOLOGIES LIMITED-IBN TECHNOLOGIES LTD-DBSSR52024120205577775",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 7590000.0
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "DBS BANK LTD INR - 830210105149",
+        "debit": 7590000.0,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "IB FUNDS TRANSFER DR-03598430000074  -IBN TECHNOLOGIES LTD",
+        "Withdrawal Amt.": 88195.0,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "Current Account-SAHAKAR NAGAR 74CC",
+        "debit": null,
+        "credit": 88195.0
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "NEFT CR-BKID0008639-S3 INFRATECK SERVICES LLP-IBN TECHNOLOGIES LTD-BKIDN24337677888",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 236952.0
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "S3 INFRATECK SERVICES LLP",
+        "debit": 236952.0,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "UPI-BHASKAR JYOTI KALITA-BHASKAR1979IN-1@OKICICI-UCBA0000633-470350515475-UPI",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 24000.0
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "TECHNIQUES",
+        "debit": 24000.0,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "RTGS DR-ICIC0000151-CRAYONSOFTWAREEXPERTSINDIAPRIVATELI-NETBANK, MUM-HDFCR52024120266741902",
+        "Withdrawal Amt.": 1223390.52,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "Crayon Software Experts India Pvt Ltd",
+        "debit": null,
+        "credit": 1223390.52
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "RTGS DR-BNPA0009009-INGRAMMICROINDIAPVTLTD-NETBANK, MUM-HDFCR52024120266750473",
+        "Withdrawal Amt.": 1757099.6,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "INGRAM MICRO INDIA PVT LTD.",
+        "debit": null,
+        "credit": 1757099.6
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "STT GLOBAL DATA CENT",
+        "Withdrawal Amt.": 3880.09,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "STT Global Data Centres India Private Ltd",
+        "debit": null,
+        "credit": 3880.09
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "STT GLOBAL DATA CENT",
+        "Withdrawal Amt.": 143909.29,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "STT Global Data Centres India Private Ltd",
+        "debit": null,
+        "credit": 143909.29
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "STT GLOBAL DATA CENT",
+        "Withdrawal Amt.": 172731.78,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "STT Global Data Centres India Private Ltd",
+        "debit": null,
+        "credit": 172731.78
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "NEFT CR-KKBK0000958-MF UTILITIES INDIA PRIVATE LIMIT-IBN TECHNOLOGIES LTD-CMS3372467877818",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 120528.0
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "MF UTILITIES INDIA PRIVATE LIMITED",
+        "debit": 120528.0,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "NEFT CR-ICIC0SF0002-NEX CORPORATION-IBN TECHNOLOGIES LTD-38465307771DC",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 44280.0
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "NEX CORPORATION",
+        "debit": 44280.0,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "NEFT CR-ICIC0SF0002-ADHIK RESORT INDIA P-IBNTECHNOLOGIESLTD-38468940811DC",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 35400.0
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "ADHIK RESORT INDIA PVT LTD",
+        "debit": 35400.0,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "SECULIBRIUM SERVICES",
+        "Withdrawal Amt.": 108000.0,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "Seculibrium Services & Solutions Pvt Ltd",
+        "debit": null,
+        "credit": 108000.0
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "03/12/24",
+        "Narration": "NEFT CR-SBIN0030456-FRUGAL INNOVATIONS PVT LTD-IBN TECHNOLOGIES LTD-SBIN124338277611",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 10800.0
+      },
+      "book_transaction": {
+        "date": "2024-12-03",
+        "transaction_details": "FRUGAL INNOVATIONS PRIVATE LIMITED",
+        "debit": 10800.0,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "03/12/24",
+        "Narration": "IB FUNDS TRANSFER DR-03592050000010  -IBN TECHNOLOGIES LTD",
+        "Withdrawal Amt.": 410000.0,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-03",
+        "transaction_details": "Current Account-SAHAKAR NAGAR- 10",
+        "debit": null,
+        "credit": 410000.0
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "CHQ DEP MICR8 CLG MODEL COLONY - MICR 8: DCE REFRIGERATION PRIVATE LIMITED :ICICI BANKING CORPORATION LTD",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 34220.0
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "DCE REFRIGERATION PVT LTD",
+        "debit": 34220.0,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "NEFT CR-ICIC0SF0002-NEX CORPORATION-IBN TECHNOLOGIES LTD-38487834501DC",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 2360.0
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "NEX CORPORATION",
+        "debit": 2360.0,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "UPI-BHASKAR JYOTI KALITA-BHASKAR1979IN-1@OKICICI-UCBA0000633-433949127081-UPI",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 11400.0
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "TECHNIQUES",
+        "debit": 11400.0,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "50200055010380-TPT-SMART MODUFORM PAY-SMART MODUFORM INDUSTRIES LLP",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 40145.0
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "SMART MODUFORM INDUSTRIES LLP",
+        "debit": 40145.0,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "NEFT CR-UTIB0000015-RENSOL NEXT LLP-IBN TECHNOLOGIES LTD.-AXOIC33993177989",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 129800.0
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "RENSOL NEXT LLP",
+        "debit": 129800.0,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "NEFT CR-FDRL0009993-RIYA TRAVEL AND TOURS-IBN TECHNOLOGIES LIMITED-FBBT243399476759",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 136209.6
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "RIYA TRAVELS & TOUR (I) PVT LTD",
+        "debit": 136209.6,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "S. R. POTNIS",
+        "Withdrawal Amt.": 6150.0,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "S.R. POTNIS",
+        "debit": null,
+        "credit": 6150.0
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "CRYSTAL ELECTRONICS",
+        "Withdrawal Amt.": 52200.0,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "Crystal Electronics",
+        "debit": null,
+        "credit": 52200.0
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "YOTTA DATA SERVICES",
+        "Withdrawal Amt.": 58719.45,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "YOTTA DATA SERVICES PRIVATE LIMITED",
+        "debit": null,
+        "credit": 58719.45
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "EURO TECH SALES AND",
+        "Withdrawal Amt.": 7150.0,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "Euro Tech Sales & Services",
+        "debit": null,
+        "credit": 7150.0
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "CONTROL V SOLUTIONS",
+        "Withdrawal Amt.": 18400.0,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "Control V Solution",
+        "debit": null,
+        "credit": 18400.0
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "GOLETRO TECHNOLOGIES",
+        "Withdrawal Amt.": 8100.0,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "Goletro Technologies (OPC) Pvt. Ltd.",
+        "debit": null,
+        "credit": 8100.0
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "GOLETRO TECHNOLOGIES",
+        "Withdrawal Amt.": 3240.0,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "Goletro Technologies (OPC) Pvt. Ltd.",
+        "debit": null,
+        "credit": 3240.0
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "YANTRA TECH INNOVATI",
+        "Withdrawal Amt.": 531360.0,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "Yantra Tech Innovation Lab Private Ltd",
+        "debit": null,
+        "credit": 531360.0
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "SURENDRA BAIRAGI",
+        "Withdrawal Amt.": 1265.0,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "Surendra Bairagi Imprest Account",
+        "debit": null,
+        "credit": 1265.0
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "SOFTACULOUS LTD",
+        "Withdrawal Amt.": 28981.98,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "Softaculous Ltd",
+        "debit": null,
+        "credit": 28981.98
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "CHQ DEP MICR 08-MUM CLG - MICR CLG - MUM: THE CYBERTECH JATIN DHIRAJLAL BOTADRA IMTIAZ MAZHA :CENTRAL BANK OF INDIA",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 10908.0
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "THE CYBERTECH",
+        "debit": 10908.0,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "NEFT CR-FDRL0009993-ACE MULTI AXES SYSTEMS LIMITED-IBN TECHNOLOGIES LTD-FBBT243399463880",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 108800.0
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction
+JSON decoding error: Unterminated string starting at: line 446 column 32 (char 13010)
+Raw response content: {
+  "green": [
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "RTGS CR-DBSS0IN0811-IBN TECHNOLOGIES LIMITED-IBN TECHNOLOGIES LTD-DBSSR52024120205577775",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 7590000.0
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "DBS BANK LTD INR - 830210105149",
+        "debit": 7590000.0,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "IB FUNDS TRANSFER DR-03598430000074  -IBN TECHNOLOGIES LTD",
+        "Withdrawal Amt.": 88195.0,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "Current Account-SAHAKAR NAGAR 74CC",
+        "debit": null,
+        "credit": 88195.0
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "NEFT CR-BKID0008639-S3 INFRATECK SERVICES LLP-IBN TECHNOLOGIES LTD-BKIDN24337677888",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 236952.0
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "S3 INFRATECK SERVICES LLP",
+        "debit": 236952.0,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "UPI-BHASKAR JYOTI KALITA-BHASKAR1979IN-1@OKICICI-UCBA0000633-470350515475-UPI",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 24000.0
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "TECHNIQUES",
+        "debit": 24000.0,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "RTGS DR-ICIC0000151-CRAYONSOFTWAREEXPERTSINDIAPRIVATELI-NETBANK, MUM-HDFCR52024120266741902",
+        "Withdrawal Amt.": 1223390.52,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "Crayon Software Experts India Pvt Ltd",
+        "debit": null,
+        "credit": 1223390.52
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "STT GLOBAL DATA CENT",
+        "Withdrawal Amt.": 3880.09,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "STT Global Data Centres India Private Ltd",
+        "debit": null,
+        "credit": 3880.09
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "STT GLOBAL DATA CENT",
+        "Withdrawal Amt.": 143909.29,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "STT Global Data Centres India Private Ltd",
+        "debit": null,
+        "credit": 143909.29
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "STT GLOBAL DATA CENT",
+        "Withdrawal Amt.": 172731.78,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "STT Global Data Centres India Private Ltd",
+        "debit": null,
+        "credit": 172731.78
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "RTGS DR-UBIN0568261-GNRSOLUTIONPRIVATELIMITED-NETBANK, MUM-HDFCR52024120266707418",
+        "Withdrawal Amt.": 421720.2,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "GNR Solution Pvt Ltd",
+        "debit": null,
+        "credit": 421720.2
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "RTGS DR-BNPA0009009-INGRAMMICROINDIAPVTLTD-NETBANK, MUM-HDFCR52024120266707411",
+        "Withdrawal Amt.": 571356.04,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "INGRAM MICRO INDIA PVT LTD.",
+        "debit": null,
+        "credit": 571356.04
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "RTGS DR-BNPA0009009-INGRAMMICROINDIAPVTLTD-NETBANK, MUM-HDFCR52024120266688130",
+        "Withdrawal Amt.": 457870.54,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "INGRAM MICRO INDIA PVT LTD.",
+        "debit": null,
+        "credit": 457870.54
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "RTGS DR-BNPA0009009-INGRAMMICROINDIAPVTLTD-NETBANK, MUM-HDFCR52024120266750463",
+        "Withdrawal Amt.": 435733.66,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "INGRAM MICRO INDIA PVT LTD.",
+        "debit": null,
+        "credit": 435733.66
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "RTGS DR-BNPA0009009-INGRAMMICROINDIAPVTLTD-NETBANK, MUM-HDFCR52024120266750461",
+        "Withdrawal Amt.": 686206.89,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "INGRAM MICRO INDIA PVT LTD.",
+        "debit": null,
+        "credit": 686206.89
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "RTGS DR-BNPA0009009-INGRAMMICROINDIAPVTLTD-NETBANK, MUM-HDFCR52024120266707424",
+        "Withdrawal Amt.": 558745.57,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "INGRAM MICRO INDIA PVT LTD.",
+        "debit": null,
+        "credit": 558745.57
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "SECULIBRIUM SERVICES",
+        "Withdrawal Amt.": 108000.0,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "Seculibrium Services & Solutions Pvt Ltd",
+        "debit": null,
+        "credit": 108000.0
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "NEFT CR-KKBK0000958-MF UTILITIES INDIA PRIVATE LIMIT-IBN TECHNOLOGIES LTD-CMS3372467877818",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 120528.0
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "MF UTILITIES INDIA PRIVATE LIMITED",
+        "debit": 120528.0,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "NEFT CR-ICIC0SF0002-NEX CORPORATION-IBN TECHNOLOGIES LTD-38465307771DC",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 44280.0
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "NEX CORPORATION",
+        "debit": 44280.0,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "NEFT CR-ICIC0099999-WSIEGUY RESEARCH CONSULTANTS PVT LTD-IBN TECHNOLOGIES LIMITED-CMS4690628064",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 13122.0
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "WISEGUY RESEARCH CONSULTANTS PRIVATE LIMITED",
+        "debit": 13122.0,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "NEFT CR-ICIC0SF0002-ADHIK RESORT INDIA P-IBNTECHNOLOGIESLTD-38468940811DC",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 35400.0
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "ADHIK RESORT INDIA PVT LTD",
+        "debit": 35400.0,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "03/12/24",
+        "Narration": "NEFT CR-SBIN0030456-FRUGAL INNOVATIONS PVT LTD-IBN TECHNOLOGIES LTD-SBIN124338277611",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 10800.0
+      },
+      "book_transaction": {
+        "date": "2024-12-03",
+        "transaction_details": "FRUGAL INNOVATIONS PRIVATE LIMITED",
+        "debit": 10800.0,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "03/12/24",
+        "Narration": "IB FUNDS TRANSFER DR-03592050000010  -IBN TECHNOLOGIES LTD",
+        "Withdrawal Amt.": 410000.0,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-03",
+        "transaction_details": "Current Account-SAHAKAR NAGAR- 10",
+        "debit": null,
+        "credit": 410000.0
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "CHQ DEP MICR8 CLG MODEL COLONY - MICR 8: DCE REFRIGERATION PRIVATE LIMITED :ICICI BANKING CORPORATION LTD",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 34220.0
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "DCE REFRIGERATION PVT LTD",
+        "debit": 34220.0,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "NEFT CR-ICIC0SF0002-NEX CORPORATION-IBN TECHNOLOGIES LTD-38487834501DC",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 2360.0
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "NEX CORPORATION",
+        "debit": 2360.0,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "UPI-BHASKAR JYOTI KALITA-BHASKAR1979IN-1@OKICICI-UCBA0000633-433949127081-UPI",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 11400.0
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "TECHNIQUES",
+        "debit": 11400.0,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "50200055010380-TPT-SMART MODUFORM PAY-SMART MODUFORM INDUSTRIES LLP",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 40145.0
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "SMART MODUFORM INDUSTRIES LLP",
+        "debit": 40145.0,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "NEFT CR-UTIB0000015-RENSOL NEXT LLP-IBN TECHNOLOGIES LTD.-AXOIC33993177989",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 129800.0
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "RENSOL NEXT LLP",
+        "debit": 129800.0,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "NEFT CR-FDRL0009993-RIYA TRAVEL AND TOURS-IBN TECHNOLOGIES LIMITED-FBBT243399476759",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 136209.6
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "RIYA TRAVELS & TOUR (I) PVT LTD",
+        "debit": 136209.6,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "S. R. POTNIS",
+        "Withdrawal Amt.": 6150.0,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "S.R. POTNIS",
+        "debit": null,
+        "credit": 6150.0
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "CRYSTAL ELECTRONICS",
+        "Withdrawal Amt.": 52200.0,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "Crystal Electronics",
+        "debit": null,
+        "credit": 52200.0
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "YOTTA DATA SERVICES",
+        "Withdrawal Amt.": 58719.45,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "YOTTA DATA SERVICES PRIVATE LIMITED",
+        "debit": null,
+        "credit": 58719.45
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "EURO TECH SALES AND",
+        "Withdrawal Amt.": 7150.0,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "Euro Tech Sales & Services",
+        "debit": null,
+        "credit": 7150.0
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "CONTROL V SOLUTIONS",
+        "Withdrawal Amt.": 18400.0,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "Control V
+JSON decoding error: Unterminated string starting at: line 454 column 22 (char 13079)
+Raw response content: {
+  "green": [
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "RTGS CR-DBSS0IN0811-IBN TECHNOLOGIES LIMITED-IBN TECHNOLOGIES LTD-DBSSR52024120205577775",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 7590000.0
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "DBS BANK LTD INR - 830210105149",
+        "debit": 7590000.0,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "IB FUNDS TRANSFER DR-03598430000074  -IBN TECHNOLOGIES LTD",
+        "Withdrawal Amt.": 88195.0,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "Current Account-SAHAKAR NAGAR 74CC",
+        "debit": null,
+        "credit": 88195.0
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "NEFT CR-BKID0008639-S3 INFRATECK SERVICES LLP-IBN TECHNOLOGIES LTD-BKIDN24337677888",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 236952.0
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "S3 INFRATECK SERVICES LLP",
+        "debit": 236952.0,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "UPI-BHASKAR JYOTI KALITA-BHASKAR1979IN-1@OKICICI-UCBA0000633-470350515475-UPI",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 24000.0
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "TECHNIQUES",
+        "debit": 24000.0,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "RTGS DR-ICIC0000151-CRAYONSOFTWAREEXPERTSINDIAPRIVATELI-NETBANK, MUM-HDFCR52024120266741902",
+        "Withdrawal Amt.": 1223390.52,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "Crayon Software Experts India Pvt Ltd",
+        "debit": null,
+        "credit": 1223390.52
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "STT GLOBAL DATA CENT",
+        "Withdrawal Amt.": 3880.09,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "STT Global Data Centres India Private Ltd",
+        "debit": null,
+        "credit": 3880.09
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "STT GLOBAL DATA CENT",
+        "Withdrawal Amt.": 143909.29,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "STT Global Data Centres India Private Ltd",
+        "debit": null,
+        "credit": 143909.29
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "STT GLOBAL DATA CENT",
+        "Withdrawal Amt.": 172731.78,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "STT Global Data Centres India Private Ltd",
+        "debit": null,
+        "credit": 172731.78
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "RTGS DR-UBIN0568261-GNRSOLUTIONPRIVATELIMITED-NETBANK, MUM-HDFCR52024120266707418",
+        "Withdrawal Amt.": 421720.2,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "GNR Solution Pvt Ltd",
+        "debit": null,
+        "credit": 421720.2
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "RTGS DR-BNPA0009009-INGRAMMICROINDIAPVTLTD-NETBANK, MUM-HDFCR52024120266707411",
+        "Withdrawal Amt.": 571356.04,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "INGRAM MICRO INDIA PVT LTD.",
+        "debit": null,
+        "credit": 571356.04
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "RTGS DR-BNPA0009009-INGRAMMICROINDIAPVTLTD-NETBANK, MUM-HDFCR52024120266688130",
+        "Withdrawal Amt.": 457870.54,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "INGRAM MICRO INDIA PVT LTD.",
+        "debit": null,
+        "credit": 457870.54
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "RTGS DR-BNPA0009009-INGRAMMICROINDIAPVTLTD-NETBANK, MUM-HDFCR52024120266750463",
+        "Withdrawal Amt.": 435733.66,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "INGRAM MICRO INDIA PVT LTD.",
+        "debit": null,
+        "credit": 435733.66
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "RTGS DR-BNPA0009009-INGRAMMICROINDIAPVTLTD-NETBANK, MUM-HDFCR52024120266750473",
+        "Withdrawal Amt.": 1757099.6,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "INGRAM MICRO INDIA PVT LTD.",
+        "debit": null,
+        "credit": 1757099.6
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "SECULIBRIUM SERVICES",
+        "Withdrawal Amt.": 108000.0,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "Seculibrium Services & Solutions Pvt Ltd",
+        "debit": null,
+        "credit": 108000.0
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "NEFT CR-KKBK0000958-MF UTILITIES INDIA PRIVATE LIMIT-IBN TECHNOLOGIES LTD-CMS3372467877818",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 120528.0
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "MF UTILITIES INDIA PRIVATE LIMITED",
+        "debit": 120528.0,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "NEFT CR-ICIC0SF0002-NEX CORPORATION-IBN TECHNOLOGIES LTD-38465307771DC",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 44280.0
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "NEX CORPORATION",
+        "debit": 44280.0,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "02/12/24",
+        "Narration": "NEFT CR-ICIC0099999-WSIEGUY RESEARCH CONSULTANTS PVT LTD-IBN TECHNOLOGIES LIMITED-CMS4690628064",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 13122.0
+      },
+      "book_transaction": {
+        "date": "2024-12-02",
+        "transaction_details": "WISEGUY RESEARCH CONSULTANTS PRIVATE LIMITED",
+        "debit": 13122.0,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "03/12/24",
+        "Narration": "NEFT CR-SBIN0030456-FRUGAL INNOVATIONS PVT LTD-IBN TECHNOLOGIES LTD-SBIN124338277611",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 10800.0
+      },
+      "book_transaction": {
+        "date": "2024-12-03",
+        "transaction_details": "FRUGAL INNOVATIONS PRIVATE LIMITED",
+        "debit": 10800.0,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "03/12/24",
+        "Narration": "IB FUNDS TRANSFER DR-03592050000010  -IBN TECHNOLOGIES LTD",
+        "Withdrawal Amt.": 410000.0,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-03",
+        "transaction_details": "Current Account-SAHAKAR NAGAR- 10",
+        "debit": null,
+        "credit": 410000.0
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "CHQ DEP MICR8 CLG MODEL COLONY - MICR 8: DCE REFRIGERATION PRIVATE LIMITED :ICICI BANKING CORPORATION LTD",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 34220.0
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "DCE REFRIGERATION PVT LTD",
+        "debit": 34220.0,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "NEFT CR-ICIC0SF0002-NEX CORPORATION-IBN TECHNOLOGIES LTD-38487834501DC",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 2360.0
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "NEX CORPORATION",
+        "debit": 2360.0,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "UPI-BHASKAR JYOTI KALITA-BHASKAR1979IN-1@OKICICI-UCBA0000633-433949127081-UPI",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 11400.0
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "TECHNIQUES",
+        "debit": 11400.0,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "50200055010380-TPT-SMART MODUFORM PAY-SMART MODUFORM INDUSTRIES LLP",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 40145.0
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "SMART MODUFORM INDUSTRIES LLP",
+        "debit": 40145.0,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "NEFT CR-UTIB0000015-RENSOL NEXT LLP-IBN TECHNOLOGIES LTD.-AXOIC33993177989",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 129800.0
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "RENSOL NEXT LLP",
+        "debit": 129800.0,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "NEFT CR-FDRL0009993-RIYA TRAVEL AND TOURS-IBN TECHNOLOGIES LIMITED-FBBT243399476759",
+        "Withdrawal Amt.": null,
+        "Deposit Amt.": 136209.6
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "RIYA TRAVELS & TOUR (I) PVT LTD",
+        "debit": 136209.6,
+        "credit": null
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "S. R. POTNIS",
+        "Withdrawal Amt.": 6150.0,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "S.R. POTNIS",
+        "debit": null,
+        "credit": 6150.0
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "CRYSTAL ELECTRONICS",
+        "Withdrawal Amt.": 52200.0,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "Crystal Electronics",
+        "debit": null,
+        "credit": 52200.0
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "YOTTA DATA SERVICES",
+        "Withdrawal Amt.": 58719.45,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "YOTTA DATA SERVICES PRIVATE LIMITED",
+        "debit": null,
+        "credit": 58719.45
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "EURO TECH SALES AND",
+        "Withdrawal Amt.": 7150.0,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "Euro Tech Sales & Services",
+        "debit": null,
+        "credit": 7150.0
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "CONTROL V SOLUTIONS",
+        "Withdrawal Amt.": 18400.0,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "Control V Solution",
+        "debit": null,
+        "credit": 18400.0
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "GOLETRO TECHNOLOGIES",
+        "Withdrawal Amt.": 8100.0,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "Goletro Technologies (OPC) Pvt. Ltd.",
+        "debit": null,
+        "credit": 8100.0
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "GOLETRO TECHNOLOGIES",
+        "Withdrawal Amt.": 3240.0,
+        "Deposit Amt.": null
+      },
+      "book_transaction": {
+        "date": "2024-12-04",
+        "transaction_details": "Goletro Technologies (OPC) Pvt. Ltd.",
+        "debit": null,
+        "credit": 3240.0
+      }
+    },
+    {
+      "bank_transaction": {
+        "Date": "04/12/24",
+        "Narration": "
+Error processing transactions: Request too large for gpt-4o in organization org-NmhXiuCqtbawtpT17cCzphOJ on tokens per min (TPM): Limit 30000, Requested 32014. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.
