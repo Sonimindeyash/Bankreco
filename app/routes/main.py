@@ -1,16 +1,14 @@
 from flask import Blueprint, request, jsonify
-import pandas as pd
 import asyncio  # Import asyncio
 from app.services.file_processor import ReconciliationProcessor
 from app.utils.validators import allowed_file
-import json
 
 main_bp = Blueprint('main', __name__)
 
-ALLOWED_EXTENSIONS = {'csv', 'xlsx', 'pdf', 'xls'}
+ALLOWED_EXTENSIONS = {'csv', 'xlsx', 'xls'}
 
 @main_bp.route('/api/upload', methods=['POST'])
-def upload_files():  # Remove `async`
+async def upload_files():  # Make this an async function
     if 'bank_statement' not in request.files or 'company_book' not in request.files:
         return jsonify({'error': 'Both files are required'}), 400
     
@@ -23,9 +21,9 @@ def upload_files():  # Remove `async`
 
     try:
         processor = ReconciliationProcessor()
-        
-        # Run async function in Flask using asyncio.run()
-        results = asyncio.run(processor.process_files_with_ai(bank_file, book_file))
+
+        # Run async function properly
+        results = await processor.process_files_with_ai(bank_file, book_file)
         return jsonify(results), 200  # Return results as JSON
     except Exception as e:
         return jsonify({'error': str(e)}), 500
